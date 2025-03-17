@@ -3,7 +3,6 @@ Linki, z których korzystano podczas realizacji zadania:
 WZÓR HARONA: https://pl.wikipedia.org/wiki/Wz%C3%B3r_Herona
 TWORZENIE KLAS W C#: https://dev-hobby.pl/csharp/funkcje-metody-w-c/ oraz https://www.plukasiewicz.net/CSharp_dla_poczatkujacych/Klasy
 */
-// ZADANIE NR 1
 using System;
 
 public class Heron
@@ -13,14 +12,14 @@ public class Heron
     public int c;
 
     // metoda do przetestowania działania funkcji herona
-    public static void Main(string[] args)
+    /*public static void Main(string[] args)
     {
         Heron heronObiekt = new Heron();
 
         // Test poprawnego działania
         TestHerona(heronObiekt, 3, 4, 5);
 
-        // Test poprawnego działania
+        // Drugi test poprawnego działania
         TestHerona(heronObiekt, 7, 5, 10);
 
         // Test dla ujemnego boku
@@ -32,7 +31,7 @@ public class Heron
         // Test dla boków, które nie utworzą trójkąta
         TestHerona(heronObiekt, 1, 1, 2);
     }
-
+*/
     public static void TestHerona(Heron heronObiekt, int a, int b, int c)
     {
         try
