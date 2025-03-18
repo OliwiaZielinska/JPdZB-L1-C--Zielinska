@@ -12,7 +12,7 @@ public class Heron
     public int c;
 
     // metoda do przetestowania działania funkcji herona
-    /*public static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Heron heronObiekt = new Heron();
 
@@ -31,7 +31,7 @@ public class Heron
         // Test dla boków, które nie utworzą trójkąta
         TestHerona(heronObiekt, 1, 1, 2);
     }
-*/
+
     public static void TestHerona(Heron heronObiekt, int a, int b, int c)
     {
         try
